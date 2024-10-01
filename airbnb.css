@@ -1,0 +1,184 @@
+body{
+    margin: 0%;
+}
+.top{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    margin-top: 15px;
+    
+    
+}
+nav{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.center li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+    
+    
+}
+.image{
+    padding-left: 40px;
+    padding-top: 10px;
+}
+.last li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+    padding-right:20px;
+}
+form{
+    margin-left: 15%;
+
+
+
+}
+.search{
+    width: 940px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid .5px;
+    background-color: white(223, 191, 9);
+    border-radius: 30px;
+    
+}
+.search>div{
+    border-radius: 30px;
+    border: solid hidden;
+    background-color: white(204, 178, 178);
+    width:475px;
+    height: 50%;
+    padding:10px;
+    
+    
+    
+}
+input{
+    border: none;
+    background: transparent;
+    background-color: white(173, 80, 80);
+    margin-top: 20px;
+    outline: none;
+    margin-left: 20px;
+    margin-top:5px;
+    font-size: 15px;
+
+    
+}
+ div>label{
+    margin-left: 20px;
+    
+    
+}
+.search>div:hover{
+    background-color: #e0e0e0;
+}
+
+
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+    height: 75px;
+    align-items: center;
+    margin: 0%;
+    text-align: center;
+
+
+}
+.icons>div>img{
+    height: 30px;
+    padding: -5px;
+    
+}
+.grid{
+    width: 100%;
+    height: 381px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    row-gap: 20px;
+    column-gap: 45px;   
+    justify-content: center;
+    text-align: center;
+    margin: 0%;
+
+    
+
+    
+
+}
+    .grid>div>img{
+        height:300px;
+        width: 300px;
+        border-radius: 20px;
+        margin-top: 10px; 
+       margin-left: -10PX;
+
+    }
+    #experiences{
+        padding: 20px;
+        color: #494343;
+    }
+    #experiences:hover{
+
+        background-color: #e0e0e0;
+        border-radius: 30px;
+    }
+    .sicon{
+        width: 50px;
+        height: 50px;
+        background-color: #e24141;
+        background-color: ;
+        position: absolute;
+        left: 1080px;
+       z-index: 1;
+       top: 130px;
+       border-radius: 50%;
+       display: flex;
+       justify-content:center ;
+       align-items: center;
+    }
+    .sicon:hover{
+        background-color: #c52e2e;
+    }
+    #home{
+        padding: 10px;
+        border-radius: 30px;
+        margin-left: 10px;
+    }
+    #home:hover{
+        background-color: #e0e0e0;
+    }
+    #slogo{
+        padding: 10px;
+        border-radius: 50%;
+
+    }
+    #slogo:hover{
+        background-color: #e0e0e0;
+    }
+    #stays{
+        font-size: 20px;
+    }
+    #login{
+        padding: 10px;
+        border-radius: 30px;
+        border: 1px solid;
+      
+    }
+    #login:hover{
+        background-color: #e0e0e0;
+    }
+    
+     .icons> :hover{
+            border-bottom: 2px solid rgb(167, 165, 165);
+            
+            
+     }
+    
